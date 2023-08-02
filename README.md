@@ -5,6 +5,5 @@ hoist](https://github.com/gitcordier/tlaplus/tree/main/brunelleschi),
 invented by the Renaissance architect Brunelleschi. 
 More information and pictures available at the Biomimetics & Dexterous Manipulation Laboratory [website](http://bdml.stanford.edu/Main/BrunelleschiNotes). 
 
-More about TLA+ at the 
-[repository](https://github.com/tlaplus) and 
-[Leslie Lamport's website](http://lamport.azurewebsites.net/tla/tla.html)
+More about TLA+ at Leslie Lamport's [website](http://lamport.azurewebsites.net/tla/tla.html) and the TLA+  
+[repository](https://github.com/tlaplus).
