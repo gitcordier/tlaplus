@@ -1,5 +1,5 @@
 -------------------------------- MODULE gear --------------------------------
-EXTENDS Integers, Reals, TLAPS
+EXTENDS Integers, TLAPS
 (* 
     Without loss of generality, see our figures, the point of view vector z 
     is <<0, 0, 1>>, as the gear wheel lies in the plane (O, X, Y); 
