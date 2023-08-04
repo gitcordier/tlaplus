@@ -8,8 +8,7 @@ invented by the Renaissance architect Brunelleschi.
 ## Bibliography
 More information and pictures available at the Biomimetics & Dexterous Manipulation Laboratory [website](http://bdml.stanford.edu/Main/BrunelleschiNotes). 
 
-More about TLA+ at Leslie Lamport's [website](http://lamport.azurewebsites.net/tla/tla.html) and the TLA+  
-[repository](https://github.com/tlaplus).
+More about TLA+ at Leslie Lamport's [website](http://lamport.azurewebsites.net/tla/tla.html) and the TLA+ [repository](https://github.com/tlaplus).
 
 ## Aknowledgements
 I’m extremely grateful to [Stephan Merz](https://github.com/muenchnerkindl), of [INRIA Nancy](https://www.inria.fr/en) 
