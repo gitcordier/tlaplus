@@ -110,7 +110,7 @@ Typing(v) == v \in Circle
 
 (* The following lemma states that Next preserves Inv.*) 
 LEMMA LemInv == Inv /\ Next => Inv'
-<1> SUFFICES ASSUME Inv /\ Next
+<1> SUFFICES ASSUME Inv, Next
 PROVE Inv'
 OBVIOUS
 <1>1 Inv /\ Next => InvX'  
@@ -158,7 +158,7 @@ THEOREM ThType == Spec => []Typing(x) /\ []Typing(y)
 
 (* 
     The following theorem asserts that there are only three options for 
-    the step det(x, y, z) -> det(x', y', z'): 
+    the step det(x, y, z) -> det(x', y', z): 
     
     1. det(x, y, z) = det(x', y', z)  /\ UNCHANGED <<x, y>>
     2. det(x, y, z) = 1  /\ det(x', y', z) = -1 /\ Next
@@ -170,28 +170,19 @@ THEOREM ThOscillatingDet == Inv /\ Next =>
     /\ Det  \in {-1, 1} 
     /\ Det' \in {-1, 1} 
     /\ Det' = -Det
-<1> SUFFICES ASSUME Inv /\ Next 
+<1> SUFFICES ASSUME Inv, Next 
 PROVE 
     /\ Det \in {-1, 1} 
-    /\ Det' \in {-1, 1} 
     /\ Det' = -Det
     OBVIOUS
 <1>1 Inv /\ Next => Det \in {-1,1} 
     BY DEF InvX, InvY, Inv, Next, Det, Circle, abs
 <1>2 Inv /\ Next => Det' = - Det   
     BY DEF InvX, InvY, Inv, Next, Det, Circle
-<1>3 Inv /\ Next => 
-    /\ Det \in {-1,1} 
-    /\ Det' = - Det 
-    BY <1>1, <1>2
-<1>4 Det \in {-1,1} /\ Det' = - Det  => Det'\in {-1,1}  
-    OBVIOUS
-<1>5 Inv /\ Next =>  Det'\in {-1,1} 
-    BY <1>3, <1>4
-<1>6 QED BY <1>1, <1>2, <1>3, <1>5
+<1>3 QED BY <1>1, <1>2
 
 
 =============================================================================
 \* Modification History
-\* Last modified Fri Aug 04 16:13:30 CEST 2023 by gcordier
+\* Last modified Fri Aug 04 17:17:23 CEST 2023 by gcordier
 \* Created Wed Aug 01 13:07:52 CEST 2023 by gcordier
