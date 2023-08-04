@@ -12,7 +12,7 @@ More about TLA+ at Leslie Lamport's [website](http://lamport.azurewebsites.net/t
 [repository](https://github.com/tlaplus).
 
 ## Aknowledgements
-I’m extremely grateful to Stephan Merz, of [INRIA Nancy](https://www.inria.fr/en) 
+I’m extremely grateful to [Stephan Merz](https://github.com/muenchnerkindl), of [INRIA Nancy](https://www.inria.fr/en) 
 (\href{https://team.inria.fr/veridis}{VeriDis} team, 
 [LORIA Laboratory](https://www.loria.fr/en)), 
 who read the specification and suggested improvements that makes the specification simultaneously more concise and more expressive.
