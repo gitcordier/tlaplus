@@ -13,6 +13,6 @@ More about TLA+ at Leslie Lamport's [website](http://lamport.azurewebsites.net/t
 
 ## Aknowledgements
 I’m extremely grateful to [Stephan Merz](https://github.com/muenchnerkindl), of [INRIA Nancy](https://www.inria.fr/en) 
-(\href{https://team.inria.fr/veridis}{VeriDis} team, 
+([VeriDis team](https://team.inria.fr/veridis), 
 [LORIA Laboratory](https://www.loria.fr/en)), 
 who read the specification and suggested improvements that makes the specification simultaneously more concise and more expressive.
